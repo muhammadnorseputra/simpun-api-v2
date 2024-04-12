@@ -1,9 +1,106 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "me": [{ 
+    "intro": "Halo, I am Putra",
+    "tagline": "Fullstack Web Developer, UI/UX Desainer & Mobile Developer",
+    "description": "Have experience in web developer since 2018. I have developed many web-apps using PHP native, CI Framework,  Bootsrap, NextJS, ReactJS, React Native (Mobile), etc..."
+  }],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Aplikasi WEB (Indeks Kepuasan Masyarakat) BKPSDM Kab. Balangan",
+      "category": "WEB",
+      "date_created": "2021-05-03",
+      "url": "https://bkpsdm-skm.balangankab.go.id",
+      "technology": "HTML, CSS, Javascript, PHP Codeigniter 3",
+      "screenshoot": [{
+        "id": 1,
+        "title": "Halaman Depan",
+        "source": "/src/screenshoot/ikm/01.png"
+      }]
+    },
+    {
+      "id": 2,
+      "title": "Aplikasi WEB (Kanal Official) BKPSDM Kab. Balangan",
+      "category": "WEB",
+      "date_created": "2019-01-04",
+      "url": "https://bkpsdm.balangankab.go.id",
+      "technology": "HTML, CSS, GULP, SASS, Javascript, PHP Codeigniter 3",
+      "screenshoot": [{
+        "id": 1,
+        "title": "Halaman Depan",
+        "source": "/src/screenshoot/web/01.png"
+      }]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "carriers": [
+    {
+      "id": 1,
+      "title": "Fullstack Web Developer",
+      "location": "BKPSDM Kab. Balangan",
+      "carrier_start": 2017,
+      "carrier_end": "Sekarang"
+    },
+    {
+      "id": 2,
+      "title": "Blogger",
+      "location": "Google, Inc",
+      "carrier_start": 2021,
+      "carrier_end": "Sekarang"
+    }
   ],
-  "profile": { "name": "typicode" }
-}
+  "hobbys": [
+    {
+      "id": 1,
+      "title": "Membaca Buku",
+      "description": "Mengisi waktu luang dengan membaca buku",
+      "image": "https://cdn-icons-png.flaticon.com/512/4298/4298316.png"
+    },
+    {
+      "id": 2,
+      "title": "Photograpy",
+      "description": "Mengabadikan setiap moment dalam bentuk digital",
+      "image": "https://cdn-icons-png.flaticon.com/512/1042/1042339.png"
+    },
+    {
+      "id": 3,
+      "title": "Learning",
+      "description": "Suka belajar hal baru sebagai tantangan",
+      "image": "https://cdn-icons-png.flaticon.com/512/3749/3749784.png"
+    }
+  ],
+  "studys": [
+    {
+      "id": 1,
+      "tingkat": "S1",
+      "jurusan": "Administration Public",
+      "location": "STIA Amuntai",
+      "year_start": "2018",
+      "year_end": "2021"
+    },
+    {
+      "id": 2,
+      "tingkat": "SMK",
+      "jurusan": "MULTIMEDIA",
+      "location": "SMK NEGERI 1 BATUMANDI",
+      "year_start": "2014",
+      "year_end": "2017"
+    },
+    {
+      "id": 3,
+      "tingkat": "SMP",
+      "jurusan": null,
+      "location": "SMP NEGERI 1 BATUMANDI",
+      "year_start": "2011",
+      "year_end": "2014"
+    },
+    {
+      "id": 4,
+      "tingkat": "SD",
+      "jurusan": null,
+      "location": "SD NEGERI BANUA HANYAR",
+      "year_start": "2005",
+      "year_end": "2011"
+    }
+  ]
+  }
+  
